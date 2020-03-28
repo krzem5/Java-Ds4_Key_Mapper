@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keymap>
+	<key name="w">
+		<joystick type="left" axis="y" threshold="-45" threshold-type="le"/>
+	</key>
+	<key name="s">
+		<joystick type="left" axis="y" threshold="45" threshold-type="me"/>
+	</key>
+	<key name="a">
+		<joystick type="left" axis="x" threshold="-45" threshold-type="le"/>
+	</key>
+	<key name="d">
+		<joystick type="left" axis="x" threshold="45" threshold-type="me"/>
+	</key>
+	<key name="mm0,0.035,V">
+		<joystick type="right" axis="y" threshold="-10" threshold-type="le"/>
+	</key>
+	<key name="mm0,0.035,V">
+		<joystick type="right" axis="y" threshold="10" threshold-type="me"/>
+	</key>
+	<key name="mm0.035,0,V">
+		<joystick type="right" axis="x" threshold="-10" threshold-type="le"/>
+	</key>
+	<key name="mm0.035,0,V">
+		<joystick type="right" axis="x" threshold="10" threshold-type="me"/>
+	</key>
+	<key name="mm0,-0.02,V">
+		<button type="right-joystick"/>
+		<joystick type="right" axis="y" threshold="-10" threshold-type="le"/>
+	</key>
+	<key name="mm0,-0.02,V">
+		<button type="right-joystick"/>
+		<joystick type="right" axis="y" threshold="10" threshold-type="me"/>
+	</key>
+	<key name="mm-0.02,0,V">
+		<button type="right-joystick"/>
+		<joystick type="right" axis="x" threshold="-10" threshold-type="le"/>
+	</key>
+	<key name="mm-0.02,0,V">
+		<button type="right-joystick"/>
+		<joystick type="right" axis="x" threshold="10" threshold-type="me"/>
+	</key>
+	<key name="space">
+		<button type="cross"/>
+	</key>
+	<key name="shift">
+		<button type="down"/>
+	</key>
+	<key name="e" static="true">
+		<button type="circle"/>
+	</key>
+	<key name="escape" static="true">
+		<button type="option"/>
+	</key>
+	<key name="control">
+		<button type="left-joystick"/>
+	</key>
+</keymap>
